@@ -2,11 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+// import TLApp from './TLApp';
+
 import reportWebVitals from './reportWebVitals';
+import BlogApp from './App2';
+import App2 from './App2';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <App2 />
   </React.StrictMode>,
   document.getElementById('root')
 );
